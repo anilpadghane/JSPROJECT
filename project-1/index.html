@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" 
+    integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+     crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Digital Clock</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <img class="clock" src="clock_logo.png">
+        <div class="div1"><div id="dropdown">
+        <img  src="wake_up.png" alt="">
+                <label for="time">Set wake up time</label>
+                <select id="wakeup">
+                    <option value="08AM">08AM-09AM</option>
+                    <option value="09AM">09AM-10AM</option>
+                    <option value="10AM">10AM-11AM</option>
+                    <option value="11AM">11AM-12PM</option>
+                    <option value="12PM">12PM-13PM</option>
+                    <option value="13PM">13PM-14M</option>
+                    <option value="14PM">14PM-15PM</option>
+                    <option value="15PM">15PM-16AM</option>
+                    <option value="16PM">16PM-17PM</option>
+                    <option value="17PM">17PM-18PM</option>
+                    <option value="18PM">18PM-19PM</option>
+                    <option value="19PM">19PM-20PM</option>
+                    <option value="20PM">20PM-21PM</option>
+                    <option value="21PM">21PM-22PM</option>
+                    <option value="22PM">22PM-23PM</option>
+                    <option value="23PM">23PM-00PM</option>
+                    <option value="00AM">00PM-01AM</option>
+                    <option value="01AM">01AM-02AM</option>
+                    <option value="02AM">02AM-03AM</option>
+                    <option value="03AM">03AM-04AM</option>
+                    <option value="04AM">04AM-05AM</option>
+                    <option value="05AM">05AM-06AM</option>
+                    <option value="06AM">06AM-07AM</option>
+                    <option value="07AM">07AM-08AM</option>
+
+                    </select>
+        <div id="line2"></div></div>
+        <div id="dropdown">
+        <img  src="lunch_time.png" alt="">
+                <label for="time">Set lunch time</label>
+                <select id="lunchtime" >
+                    <option value="13PM">13PM-14M</option>
+                    <option value="14PM">14PM-15PM</option>
+                    <option value="15PM">15PM-16AM</option>
+                    <option value="16PM">16PM-17PM</option>
+                    <option value="17PM">17PM-18PM</option>
+                    <option value="18PM">18PM-19PM</option>
+                    <option value="19PM">19PM-20PM</option>
+                    <option value="20PM">20PM-21PM</option>
+                    <option value="21PM">21PM-22PM</option>
+                    <option value="22PM">22PM-23PM</option>
+                    <option value="23PM">23PM-00PM</option>
+                    <option value="00AM">00PM-01AM</option>
+                    <option value="01AM">01AM-02AM</option>
+                    <option value="02AM">02AM-03AM</option>
+                    <option value="03AM">03AM-04AM</option>
+                    <option value="04AM">04AM-05AM</option>
+                    <option value="05AM">05AM-06AM</option>
+                    <option value="06AM">06AM-07AM</option>
+                    <option value="07AM">07AM-08AM</option>
+                    <option value="08AM">08AM-09AM</option>
+                    <option value="09AM">09AM-10AM</option>
+                    <option value="10AM">10AM-11AM</option>
+                    <option value="11AM">11AM-12PM</option>
+                    <option value="12PM">12PM-13PM</option>
+                </select>
+        <div id="line3"></div></div>
+        <div id="dropdown">
+        <img  src="nap_time.png" alt="">
+                <label for="time">Set nap time</label>
+                <select id="naptime" >
+                    <option value="17PM">17PM-18PM</option>
+                    <option value="18PM">18PM-19PM</option>
+                    <option value="19PM">19PM-20PM</option>
+                    <option value="20PM">20PM-21PM</option>
+                    <option value="21PM">21PM-22PM</option>
+                    <option value="22PM">22PM-23PM</option>
+                    <option value="23PM">23PM-00PM</option>
+                    <option value="00AM">00PM-01AM</option>
+                    <option value="01AM">01AM-02AM</option>
+                    <option value="02AM">02AM-03AM</option>
+                    <option value="03AM">03AM-04AM</option>
+                    <option value="04AM">04AM-05AM</option>
+                    <option value="05AM">05AM-06AM</option>
+                    <option value="06AM">06AM-07AM</option>
+                    <option value="07AM">07AM-08AM</option>
+                    <option value="08AM">08AM-09AM</option>
+                    <option value="09AM">09AM-10AM</option>
+                    <option value="10AM">10AM-11AM</option>
+                    <option value="11AM">11AM-12PM</option>
+                    <option value="12PM">12PM-13PM</option>
+                    <option value="13PM">13PM-14M</option>
+                    <option value="14PM">14PM-15PM</option>
+                    <option value="15PM">15PM-16AM</option>
+                    <option value="16PM">16PM-17PM</option>
+            
+                </select>
+        <div id="line4"></div></div>
+        <div id="dropdown">
+        <img  src="nap_time.png" alt="">
+                <label for="time">Set night time</label>
+                <select id="nightTime">
+                    <option value="21PM">21PM-22PM</option>
+                    <option value="22PM">22PM-23PM</option>
+                    <option value="23PM">23PM-00PM</option>
+                    <option value="00AM">00PM-01AM</option>
+                    <option value="01AM">01AM-02AM</option>
+                    <option value="02AM">02AM-03AM</option>
+                    <option value="03AM">03AM-04AM</option>
+                    <option value="04AM">04AM-05AM</option>
+                    <option value="05AM">05AM-06AM</option>
+                    <option value="06AM">06AM-07AM</option>
+                    <option value="07AM">07AM-08AM</option>
+                    <option value="08AM">08AM-09AM</option>
+                    <option value="09AM">09AM-10AM</option>
+                    <option value="10AM">10AM-11AM</option>
+                    <option value="11AM">11AM-12PM</option>
+                    <option value="12PM">12PM-13PM</option>
+                    <option value="13PM">13PM-14M</option>
+                    <option value="14PM">14PM-15PM</option>
+                    <option value="15PM">15PM-16AM</option>
+                    <option value="16PM">16PM-17PM</option>
+                    <option value="17PM">17PM-18PM</option>
+                    <option value="18PM">18PM-19PM</option>
+                    <option value="19PM">19PM-20PM</option>
+                    <option value="20PM">20PM-21PM</option>
+                </select>
+        </div>
+    </div>    
+    <button id="button" onclick="changeImg()"></button>    
+        <div id="msg"></div> 
+        <img id="img-1" src="">
+   
+        <div id="div3">
+            <span> Wake Up Time : </span>
+            <br>
+            <span> Lunch Time   : </span>
+            <br> 
+            <span> Nap Time     : </span>
+            <br>
+            <span> Night Time   : </span></div>    
+        
+            <div class="index1"></div>
+            <div class="index2"></div>
+            <div class="div4">
+            <img id="timeline" src="AM_svg.png" alt="">
+            <img id="timeline" src="timeline.png" alt="">
+            <img id="timeline" src="timeline.png" alt="">
+            <img id="timeline" src="timeline.png" alt="">
+    
+        </div>
+        <div id="msg2"></div>
+    </main>
+
+    <div class="container">
+
+        <div class="digitalclock">Time
+        <span id="hours" >12</span>
+        <span>:</span>
+        <span id="minute">60</span>
+        <span>:</span>
+        <span id="second">60</span>
+        <span>:</span>
+        <span id="am_or_pm"></span>
+        </div>
+        <div id="msg3">Note: Go to Artboard 3(Assets) to see all the assets used in this project</div>    
+
+    </div> 
+    <script src="index.js"></script>
+</body>
+</html>

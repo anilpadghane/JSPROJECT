@@ -1,0 +1,239 @@
+main{
+    display: grid;
+    height: 700px;
+    width:1200px;
+   position: absolute;
+   left: 20px;
+    background:  #3D087B 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+.clock{
+    height: 60px;
+    margin-left:50px;
+    margin-top: 30px;
+}
+
+.div1{
+    position: absolute;
+    margin-top: 120px;
+    height: 350px;
+    width: 500px;
+   position: absolute;
+   left: 20px;
+    background-color: aliceblue;
+    margin-left: 50px;
+    border-radius: 10px;
+}
+#msg{
+    position: absolute;
+    margin-top: 480px ;
+    height: 50px;
+    width: 500px;
+   position: absolute;
+   left: 20px;
+    background-color: blueviolet;
+    margin-left: 50px;
+    border-radius: 10px;
+    color: #ffffff;
+    font-weight: 800;
+    text-align: center;
+    padding-top: 30px;
+
+
+    
+}
+#dropdown{
+    color: #3D087B;
+    margin-top: 40px;
+    margin-left: 10px; 
+
+    
+}
+#line2{
+   position: absolute;
+   left: 20px;
+    background-color: "";
+    width: 1%;
+    height: 0.8cm;
+    border-left: solid rgb(61, 60, 60) 2.5px;
+    opacity: 20%;
+}
+#line3{
+   position: absolute;
+   left: 20px;
+    background-color: "";
+    width: 1%;
+    height: 0.8cm;
+    border-left: solid rgb(61, 60, 60) 2.5px;
+    opacity: 20%;
+}
+#line4{
+   position: absolute;
+   left: 20px;
+    background-color: "";
+    width: 1%;
+    height: 0.8cm;
+    border-left: solid rgb(61, 60, 60) 2.5px;
+    opacity: 20%;
+}
+
+select{
+    float: right;
+    margin-right: 10px;
+    width: 200px;
+    color: #3D087B;
+}
+img{
+    height: 25px;
+    margin-right: 20px;
+
+}
+button{
+    position: relative;
+    top: 200px;
+    height: 40px;
+    width: 230px;
+    left: 20px;
+    background-image: linear-gradient(113deg,#6E54EC,#CB52F8,#FC5EFF,#F1A7C5);
+    margin-left: 50px;
+    border: transparent;
+    border-radius: 3px;
+    color: #ffffff;
+    font-size: 1.2em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+   
+
+}
+button:hover{
+   position: relative;
+   left: 20px;
+   top: 200px;
+    background-image:linear-gradient(113deg,#F1A7C5,#FC5EFF,#CB52F8,#6E54EC); 
+   
+}
+button::before{
+    content: "Set alarm";
+}
+button:hover:after{
+    content: "Party Time!!";
+    align-items: center;
+}
+button:hover::before{
+    visibility: hidden;
+}
+
+
+#div3{
+    position: absolute;
+    top: 580px;
+    height: 100px;
+    width: 250px;
+    margin-left: 300px;
+    border-radius: 3px;
+   position: absolute;
+   left: 20px;
+    background-color: blueviolet ;
+    color: #CB52F8;
+    font-size: 1.2em;
+    padding-top:10px ;
+
+}
+.div4{
+position: absolute;   
+height: 60px;
+width: 500px;
+margin-left: 580px;
+left: 20px;
+margin-top: 30px;
+background-color: #ffffff;
+border-radius: 10px;
+padding-top: 20px;
+padding-bottom: 20px;
+}
+#timeline{
+    height: 60px;
+    float: right;
+    margin-left: 12px;
+}
+
+
+#msg2{
+    position: absolute;
+    left: 0;
+    top: 40px;
+    margin-bottom: 10px;
+    height: 50px;
+    width: 500px;
+   position: absolute;
+   left: 20px;
+    background-color: #ffffff;
+    margin-left: 580px;
+    margin-top: 150px;
+    border-radius: 10px;
+    color: #8E53F0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    text-align: center;
+    padding-top: 30px;
+
+
+}
+#img-1{
+    position: absolute;
+    height: 300px;
+    width: 500px;
+    margin-left: 600px;
+    margin-top: 280px;
+    
+
+
+}
+
+.digitalclock{
+    position: absolute;
+    left: 710px;
+    top: 70px;
+    color: #3D087B;
+    font-size: 1.5em;
+    font-weight: lighter;
+    letter-spacing: 7.9px;
+
+}
+#am_or_pm{
+    color: #ffffff;
+    
+}
+
+#msg3{
+    position: absolute;
+    left: 650px;
+    top: 650px;
+    color: #CB52F8;
+    
+}
+.index1{
+    position: absolute;
+    display: flex;
+    left: 660px;
+    top: 70px;
+    height: 100px;
+    border-radius: 10px;
+    width: 400px;
+    background-color: #8E53F0;
+    filter: opacity(70%)
+    
+}
+.index2{
+    position: absolute;
+    display: flex;
+    left: 630px;
+    top: 30px;
+    border-radius: 10px;
+    height: 120px;
+    width: 450px;
+    background-color:#ffffff;
+    filter: opacity(70%)
+}
