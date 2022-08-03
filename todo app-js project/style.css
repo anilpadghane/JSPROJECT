@@ -1,0 +1,178 @@
+.blur {
+    filter: blur(2px);
+  }
+  body{
+  background-color: black;
+  }
+  .conFirst {
+  display: inline-block;
+  text-align: right;
+  font-size: 40px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: lighter;
+  padding: 1.3rem;
+  }
+  i {
+  font-size: 2rem;
+  color: orangered;
+  cursor: pointer;
+  }
+  .card {
+  border: 1px solid orangered;
+  border-radius: 10px;
+  color:orangered;
+  width: 300px;
+  height: 150px;
+  z-index: 1;
+  text-align: center;
+  font-family: Roboto, sans-serif;
+  padding: 1.2rem;
+  font-size: 20px;
+  box-shadow: 5px 5px 10px rgb(202, 197, 197); 
+  background-color: white;
+  position: absolute;
+  top: 35%;
+  left: 35%;
+  animation:popupbox 0.4s ease-in-out;
+  }
+  input{
+  border-radius: 5px;
+  width: 85%;
+  max-width: 270px;
+  height: 35px;
+  box-shadow: 5px 3px 10px rgb(202, 197, 197);
+  border: 1px solid orangered;
+  display: block;
+  margin: auto;
+  }
+  .button {
+  width: 80px;
+  height: 35px;
+  font-size: 20px;
+  background-color: orangered;
+  color: white;
+  border: 0px;
+  border-radius: 10px;
+  cursor: pointer;
+  display: inline-block;
+  margin: 1.5vw;
+  box-sizing: border-box;
+  padding: 0.35rem;
+  }
+  @keyframes card {
+  from {
+    transform: scale(0);
+  }
+  to {
+    transform: scale(1)
+    }
+  }
+  
+  
+  .container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 20px;
+    padding: 20px;
+  }
+  .t-1{
+    font-size: 40px;
+    color: white;
+    font-weight: bolder;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  #t-2{
+    font-size: 40px;
+    color: white;
+    font-weight: lighter;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  div i{
+    
+    color: orangered;
+    font-size: 40px;
+    cursor: pointer;
+  }
+  #t-3{
+    font-size: 40px;
+    color: white;
+    font-weight: lighter;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  .conTwo{
+    margin: 20px;
+    padding: 10;
+    color: white;
+    text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+    
+  }
+  
+  .buttons {
+    position: absolute;
+    bottom: 1rem;
+    right: 1rem;
+    display: flex;
+    flex-direction: row-reverse;
+  }
+  .buttons i {
+    padding: 0.5rem;
+  }
+  #title{
+    cursor: pointer;
+    font-size: 2rem;
+  }
+  .cards {
+    position: relative;
+    box-shadow: 5px 4px 5px 4px orangered ;
+    min-height: 300px;
+    width: 250px;
+    margin: 50px;
+    border-radius: 10px;
+    font-size: 20px;
+    text-align: center;
+    padding: 20px 10px 3.5rem;
+    font-weight: lighter;
+    font-family: Roboto, sans-serif;
+    color: black;
+    background-color: #fff;
+  }
+  
+  
+  /*create new css*/
+  
+  .new{
+    display: flex;
+    flex-direction: row;
+    margin-top: -650px;
+    padding: 10px;
+    z-index: 3;
+  }
+  .new-card{
+    text-align: center;
+  }
+  .main{
+    position: relative;
+  }
+  .back{
+    color: white;
+    font-size: 45px;
+    margin: 5px;
+  }
+  .new-card{
+    margin-left: 42%;
+  }
+  h1{
+    font-size: 45px;
+    font-family: Roboto, sans-serif;
+  }
+  .h1{
+    font-size: 45px;
+    margin-left: 33%;
+    padding: 0px;
+    font-family: Roboto, sans-serif;
+  }
